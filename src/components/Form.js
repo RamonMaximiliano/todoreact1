@@ -1,6 +1,6 @@
 const Form = function () {
     return (
-        <div className="add-item">
+        <form className="add-item">
             <div className="form-content">
             <label className="item-label">Item name</label><br></br>
             <div className="input-button">
@@ -9,7 +9,7 @@ const Form = function () {
             <button type="button" className="add-button">Add</button>
             </div>
             </div>
-        </div>
+        </form>
     );
 } 
 export default Form
