@@ -4,7 +4,7 @@ const Item = function (props) {
     return (
         <div className="item">
             <p>
-                {props.text}
+                {props.itemData.itemValue}
             </p>
                 {/* Then the variable image can be used */}  
           <img src={xbutton} alt="x button" className="xImage"></img>
