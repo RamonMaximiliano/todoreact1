@@ -7,6 +7,7 @@ import {useState} from "react";
 
 function App() {
   //O método useState abaixo define o valor inicial do state
+  //talvez tenha que trocar de chaves para colchetes para que ele seja um array vazio
   const [itemData, updateItemData] = useState({});
 
   return (

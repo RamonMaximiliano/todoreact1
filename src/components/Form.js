@@ -26,6 +26,9 @@ colocar o onChange como arrow function:
           event.preventDefault(); 
           console.log(itemValue)
           props.updateItemData({itemValue})
+
+          //Verificando o App do Traversy, o valor empty da function abaixo seta de novo o input text para vazio, sem apagar o valor da ultima task registrada já
+          setItemValue("")
     }
 
     return (
